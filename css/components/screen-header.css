@@ -12,6 +12,19 @@
     font-weight: 600;
 }
 
+.screen-header__icons {
+    position: relative;
+}
 .screen-header__icons span {
     margin-left: 25px;
+}
+.header__notification-point {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    top: -10px;
+    right: -5px;
 }
